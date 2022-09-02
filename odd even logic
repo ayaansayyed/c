@@ -1,0 +1,23 @@
+// Online C compiler to run C program online
+//autor:ayaan sayyed
+//:date:2/09/2022
+//project:-preincrement
+#include <stdio.h>
+
+int main() {
+   int mod; 
+   int a;
+   printf("enter your value for a:");
+   scanf("%d",&a);
+   if(a%2==0)
+   {
+    printf("no. is even");
+   }
+    else
+    
+    { 
+        printf("no. is odd");
+   }
+   
+    return 0;
+}
