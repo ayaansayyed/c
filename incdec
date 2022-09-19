@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+int main() {
+     // increment
+    int a=5;
+    printf("value of a before increment:%d",a);
+    a++;
+    printf("\n");
+     printf("value of a after increment:%d",a);
+
+    printf("\n----------------");
+//decrement
+int x=7;
+ printf("value of x before decrement:%d",x);
+    x--;
+    printf("\n");
+     printf("value of x after decrement:%d",x);
+    printf("\n");
+
+
+    return 0;
+}
