@@ -1,0 +1,14 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+
+void main() {
+    // Write C code here
+    float f;
+    float c;
+    printf("enter tem.in fahrenheit"); 
+    scanf("%f",&f);
+    c=(f-32)*5/9;
+    printf(" tem.in celcius=%0.2f", c);
+
+    return 0;
+}
